@@ -1,0 +1,277 @@
+body{
+    background-color: #040A0A;
+    font-family: "Onest", sans-serif;
+    color: rgba(255, 255, 255, 0.481);
+}
+.backgoundImage{
+    display: flex;
+        justify-content: center; /* horizontal center */
+        align-items: center;     /* vertical center */
+        height: 100vh; 
+    position: relative;
+        
+        
+
+}
+.img{
+    height: 85%;
+    width: 70%;
+    border:15px solid #6280807a;
+    border-radius: 10px;
+    z-index: -1;
+    position:relative
+}
+.sideBar{
+    display: flex; 
+    justify-content: flex-end;
+    position:absolute;
+    right: 18.3rem;
+
+    
+}
+.sideBarContainer{
+    display: flex;
+    flex-direction: column;
+    height: 815px ;
+    width: 300px;
+    /* background-color: #0816167d; */
+    background-color: #0d26267d;
+    
+    align-items: center;
+}
+.locationContainer{
+    height: 30px;
+    width: 180px;
+    
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.locationContainerRight{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.271);
+    border-radius: 7px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.searchIcon{
+    border: 0 0 0 3 0 solid ;
+    color: rgba(255, 255, 255, 0.481);
+
+}
+.location{
+    font-family: "Onest", sans-serif;
+    font-size: 15px;    
+    color: rgba(255, 255, 255, 0.481);
+}
+.degree{
+    height:180px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.degreeNumberHeading{
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: "Onest", sans-serif;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.481);
+    
+}
+
+.underline{
+    height: 2px;
+    width: 250px;
+    background-color: #ffffff57;
+    margin-top: 4px;
+    border-radius: 2px;
+}
+.windspeedContainer{
+    display: flex;
+    flex-direction: row;
+    color: rgba(255, 255, 255, 0.481);
+    
+}
+.windspeed{
+    padding-left: 7px;
+}
+.forcast{
+
+height: 430px;
+width: 250px;
+margin-top: 30px;
+/* display: flex;
+flex-direction: column;
+gap: 15px;
+justify-content: center; */
+
+}
+
+.forcastHeader{
+    margin-top: 5px ;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+}
+.daysAhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 15px;
+}
+ .days:nth-child(1){
+    padding: 4px 8px;
+    background-color: #153e3ef3;
+    border-radius: 5px;
+}
+.daysAheadForcastContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 12px;
+
+}
+.forcastRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.forcastIconContainer{
+   position: relative;
+   padding: 15px;
+   
+}
+
+.forcastIcon{
+    position: absolute;
+    top: 50%;
+    right:40%;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.481);
+   
+
+
+   
+}
+
+.forcastDate{
+    margin: 25px 0px 5px 0px;
+    font-weight: 500;
+}
+.forcastWeather{
+    margin: 0;
+    font-weight: 300;
+}
+
+.right{
+     position:absolute;
+     /* background-color: white; */
+    height: 85%;
+    width: 53%;
+    left:18rem;
+    
+   
+   
+}
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+  
+     gap: 50px;
+    height: 83%;
+    width: 100%; 
+    padding: 40px 10px 0px 30px;
+  
+    
+}
+.dateContainer{
+    display: flex;
+    
+    height: 30px;
+    width:96%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    letter-spacing: 0.5px;
+   
+   
+   
+}
+
+
+
+.bottom{
+    
+    height: 20rem;
+    width:96%;
+    
+    
+
+}
+.bottom > h2{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 3px;
+    font-size: 3.5rem;
+   justify-content: end;
+   color: rgb(245, 239, 239) ;
+   /* border: 5px solid #ffffff57; */
+   
+    
+
+}
+.underlineBottom{
+height: 2px;
+width: 100%;
+background-color: #ffffff57;
+margin-top: 4px;
+border-radius: 2px;
+}
+.bottomForecastContainer{
+    display: flex;
+    flex-direction: row;
+    
+}
+.bottomForecastTop{
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+}
+.bottomForecastTop > h5{
+    
+    margin: 15px;
+}
+.bottomForecastBottom > h5{
+    margin: 15px;
+}
+.icon{
+    background-color: #302a2a;
+    border-radius: 5px;
+}
+.iconBottom{
+    padding: 15px 10px;
+   margin-left: 6px;
+    font-size: 30px;
+    color: rgb(245, 239, 239) ;
+   
+    
+}
+.bottomForecast{
+   margin: 4rem 20px;
+}
